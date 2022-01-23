@@ -1,0 +1,46 @@
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nav-menu li {
+  float: left;
+}
+
+.nav-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-menu li a:hover {
+  background-color: #111;
+}
+
+.nav-menu li a.current {
+    background-color: #ddd;
+    color: #444;
+}
